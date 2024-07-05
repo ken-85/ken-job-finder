@@ -45,25 +45,25 @@
                 <div class="card border-dark bg-dark text-white">
                     <div class="card-body">
                         <h5 class="card-title">${jobPost.postProfile}</h5>
-                         <p class="card-text">
+                        <p class="card-text">
                             <strong>Job-Id: </strong>
-                            ${jobPost.postId}
+                                ${jobPost.postId}
                         </p>
                         <p class="card-text">
                             <strong>Description:</strong>
-                            ${jobPost.postDesc}
+                                ${jobPost.postDesc}
                         </p>
                         <p class="card-text">
                             <strong>Experience Required:</strong>
-                            ${jobPost.reqExperience} years
+                                ${jobPost.reqExperience} years
                         </p>
                         <p class="card-text">
                             <strong>Tech Stack Required:</strong>
-                            <ul>
-                                <ab:forEach var="tech" items="${jobPost.postTechStack}">
-                                    <li>${tech}</li>
-                                </ab:forEach>
-                            </ul>
+                        <ul>
+                            <ab:forEach var="tech" items="${jobPost.postTechStack}">
+                                <li>${tech}</li>
+                            </ab:forEach>
+                        </ul>
                         </p>
                     </div>
                     <div class="card-footer">
