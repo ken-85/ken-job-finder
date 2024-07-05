@@ -15,7 +15,6 @@
 			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
 			crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="style1.css">
 	<style>
 		h2 {
 			font-size: 16px;
@@ -28,7 +27,7 @@
 		}
 
 		.bg-clr{
-			background-color:#f1faee;
+			background-color:rgb(255 193 7);
 		}
 
 
@@ -64,13 +63,15 @@
 	<div class="row">
 		<!-- Card 1 -->
 		<div class="col-md-6 mb-5">
-			<div class="card bg-warning">
+			<div class="card">
 				<div class="card-body text-center">
 					<h5 class="card-title">View All Jobs</h5>
 					<form action="/viewalljobs" method="get">
-						<!-- Add your form fields here -->
+						<!-- Your form fields go here if needed -->
+
 						<button type="submit" class="btn btn-primary">Click</button>
 					</form>
+
 				</div>
 			</div>
 		</div>

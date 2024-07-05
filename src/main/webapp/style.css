@@ -3,7 +3,7 @@ body {
     font-family: "Poppins";
     background-color:#87CEEB; /* Bootstrap primary blue */
     color: #fff; /* Text color for better contrast on the blue background */
-   
+
 }
 .navbar-nav .nav-link {
             font-size: 18px; /* Adjust the font size as needed */
